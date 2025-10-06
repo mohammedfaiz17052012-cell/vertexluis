@@ -1,0 +1,135 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #f0f0f0;
+  background: #000; /* matte black */
+}
+
+/* Header */
+header {
+  background: #111;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.8em;
+  color: #bbb; /* metallic black effect */
+  text-shadow: 1px 1px 2px #444;
+}
+
+nav a {
+  color: #f0f0f0;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #111, #222);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-family: "Brush Script MT", cursive;
+  color: #ccc;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  padding: 12px 25px;
+  background: #ff6600;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero .btn:hover {
+  background: #e65c00;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+/* Services */
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Contact */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+form input, form textarea {
+  background: #222;
+  color: #fff;
+}
+
+form button {
+  background: #ff6600;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #e65c00;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #777;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
